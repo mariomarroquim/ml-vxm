@@ -1,0 +1,36 @@
+body {
+  margin: 0px 24px 24px 24px;
+}
+
+hr {
+  background: none;
+  border: none;
+  border-top: 1px solid #cccccc;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 12px;
+  padding: 18px;
+}
+
+.result--negative {
+  background-color: #90B494;
+}
+
+.result--positive {
+  background-color: #DBCFB0;
+}
+
+.result__label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.result__score {
+  font-size: 18px;
+  font-weight: bold;
+}
