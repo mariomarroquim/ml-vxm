@@ -12,17 +12,21 @@ hr {
   font-weight: bold;
 }
 
+.small {
+  font-size: 14px;
+}
+
 .result {
   margin-top: 12px;
   padding: 18px;
 }
 
 .result--negative {
-  background-color: #90B494;
+  background-color: #99cc00;
 }
 
 .result--positive {
-  background-color: #DBCFB0;
+  background-color: #ff9933;
 }
 
 .result__label {
@@ -30,7 +34,6 @@ hr {
   font-weight: bold;
 }
 
-.result__score {
-  font-size: 18px;
-  font-weight: bold;
+.result hr {
+  border-top: 1px dotted #000000;
 }
