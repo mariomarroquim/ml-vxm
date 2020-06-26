@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="{{url_for('static', filename='css/pure_min.css')}}"/>
   <link rel="stylesheet" href="{{url_for('static', filename='css/pure_responsive_min.css')}}"/>
   <link rel="stylesheet" href="{{url_for('static', filename='css/custom.css')}}"/>
+  <link rel="shortcut icon" href="{{url_for('static', filename='img/favicon.ico')}}" />
 </head>
 
 <body>
@@ -25,11 +26,9 @@
         <br/>
 
         <ul class="small">
-          <li>Perform the complete HLA typing of the donor at high resolution. Optionally, use a <a href="http://www.ephlaconverter.com.br/ephlaconverter/default/biologiamolecular">converter</a>.</li>
-          <li>Find the patient's SAB panels having the highest MFI values for the donor's HLA alleles.</li>
-          <li>Fill this form with the highest MFI values for the donor's HLA alleles per locus.</li>
+          <li>Fill this form with the patient's SAB panels MFI values for the donor's HLA alleles, per locus.</li>
           <li>If a donor's HLA allele is present in more than one bead, choose its lowest MFI value.</li>
-          <li>If the donor's HLA alleles of a specific locus are not tested, leave its field blank.</li>
+          <li>If all donor's HLA alleles from a specific locus are not tested, leave its field blank.</li>
         </ul>
       </p>
 
@@ -100,8 +99,8 @@
           <br/>
 
           <ul class="small">
-            <li>The donor's HLA typing is complete and in high resolution (preferably w/o conversion).</li>
-            <li>The selected panels are the ones with the highest MFI values for the donor's HLA alleles.</li>
+            <li>The donor's HLA typing is complete and in high resolution (preferably w/o <a href="http://www.ephlaconverter.com.br/ephlaconverter/default/biologiamolecular">conversion</a>).</li>
+            <li>The SAB panels are the ones with the highest MFI values for the donor's HLA alleles.</li>
             <li>The score is closer to 0, when the result is negative, or to 1, when it is positive.</li>
           </ul>
         </p>
