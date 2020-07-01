@@ -2,6 +2,10 @@ body {
   margin: 0px 24px 24px 24px;
 }
 
+p {
+  text-align: justify;
+}
+
 hr {
   background: none;
   border: none;
@@ -18,6 +22,7 @@ hr {
 
 .result {
   margin-top: 12px;
+  margin-bottom: 24px;
   padding: 18px;
 }
 
